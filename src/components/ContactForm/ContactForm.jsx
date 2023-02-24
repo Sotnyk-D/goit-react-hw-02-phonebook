@@ -1,6 +1,6 @@
 import { Component } from 'react';
 import PropTypes from 'prop-types';
-import styles from './CantactForm.module.css';
+import style from './CantactForm.module.css';
 
 export class ContactForm extends Component {
   render() {
