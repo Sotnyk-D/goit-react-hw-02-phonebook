@@ -1,4 +1,4 @@
-import PropTypes from 'propTypes';
+import PropTypes from 'prop-types';
 import style from './Filter.module.css';
 
 export function Filter({ value, onChange }) {
@@ -19,4 +19,3 @@ Filter.propTypes = {
   value: PropTypes.string,
   onChange: PropTypes.func.isRequired,
 };
-

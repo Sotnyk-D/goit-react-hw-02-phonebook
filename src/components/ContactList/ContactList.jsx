@@ -1,4 +1,4 @@
-import PropTypes from 'propTypes';
+import PropTypes from 'prop-types';
 import style from './ContactList.module.css';
 
 export function ContactList({ contacts, deleteContact }) {
